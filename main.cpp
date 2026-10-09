@@ -12,10 +12,7 @@
 
 int main(int argc, char *argv[])
 {
-    QCoreApplication app(argc, argv);
-
-    ErrorHandler errorHandler;
-    qDebug() << "[OK] ErrorHandler";
+    
 
     Database db;
     if (db.init("netguard.db"))
